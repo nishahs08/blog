@@ -64,8 +64,8 @@ function Post(props) {
     </div>
     {
       (!isReplying) &&
-    <button style={{ width: '100px', padding: '5px', margin: '10px 0 10px auto' }} onClick={() => setIsReplying(true)}>Reply</button>
-}
+      <button style={{ width: '100px', padding: '5px', margin: '10px 0 10px auto' }} onClick={() => setIsReplying(true)}>Reply</button>
+    }
     {
       isReplying
       &&
